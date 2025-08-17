@@ -6,6 +6,7 @@
 source EBAZ4205_2_AXIGPIO.tcl
 ```
 - Block design will be generated.
-- Run Synthesis -> Implementation -> Generate Bitstream
+- source the `io.xdc` as constraint file.
+- Run Synthesis -> Implementation -> Generate Bitstream.
 - Find `.bit`, `.tcl` & `.hwh` files inside `EBAZ4205_2_AXIGPIO` project folder.
 - Copy that and upload into `~/pynq/overlays/` folder of PYNQ OS running in EBAZ4205.
