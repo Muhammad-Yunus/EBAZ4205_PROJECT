@@ -12,4 +12,4 @@ source EBAZ4205_3_AxiI2C.tcl
 - Copy that and upload into `~/pynq/overlays/` folder of PYNQ OS running in EBAZ4205.
 ### Project Info
 - Block Design implemented in `EBAZ4205_3_AxiI2C.bit`,
-![](../../resource/EBAZ4205_3_AxiI2C_BlockDesign.png)
+![](../../../resource/EBAZ4205_3_AxiI2C_BlockDesign.png)
