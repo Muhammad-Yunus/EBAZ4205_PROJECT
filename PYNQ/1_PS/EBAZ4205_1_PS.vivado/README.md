@@ -10,3 +10,6 @@ source EBAZ4205_1_PS.tcl
 - Run Synthesis -> Implementation -> Generate Bitstream.
 - Find `.bit`, `.tcl` & `.hwh` files inside `EBAZ4205_1_PS` project folder.
 - Copy that and upload into `~/pynq/overlays/` folder of PYNQ OS running in EBAZ4205.
+### Project Info
+- Block Design implemented in `EBAZ4205_2_AXIGPIO` project,
+![](../../../resource/EBAZ4205_1_PS_BlockDesign.png)
