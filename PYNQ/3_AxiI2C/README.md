@@ -5,4 +5,4 @@
 ### AxiI2C Experiment
 - Write char in I2C LCD SSD1306 128x32 using AxiI2C
 - Experiment result, control I2C OLED SSD1306 128x32,
-![](../../../resource/EBAZ4205_3_AxiI2C_Photo.jpg)
+![](../../resource/EBAZ4205_3_AxiI2C_Photo.jpg)
