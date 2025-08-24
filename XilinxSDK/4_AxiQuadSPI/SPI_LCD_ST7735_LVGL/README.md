@@ -14,3 +14,7 @@
     - SPI pin is assigned to `A20` (MISO), `H16` (MOSI), `B19` (SCK), `B20` (CS) in `DATA1 PORT`, 
     - Also LCD related GPIO via AxiGPIO, `C20` (LCD DC), `H17` (LCD Backlight), `D20` (LCD RESET)
         <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_Pin.png" width="400px">
+- Experiment result,
+    - GUI designed in Squareline Studio
+    - LVGL version : `8.3.10`
+    ![](../../../resource/EBAZ4205_4_AXIQuadSPI_LVGL_Photo.jpeg)
