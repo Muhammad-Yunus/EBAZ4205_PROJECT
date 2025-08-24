@@ -6,9 +6,8 @@
     - Launch Xilinx SDK from Vivado,
     - Then create New Application Project with Name `SPI_LCD_ST7735_LVGL`,
     - Choose Project Template `Hello World`
-    - Copy everything inside the `src/` folder above into the `src/` folder of your `SPI_LCD_ST7735_LVGL` project in Xilinx SDK. 
-    - In Xilinx SDK, 
-        - open Project Properties > C/C++ Build > Settings > Directories. 
+    - Copy everything inside the `src/` folder above into the `src/` folder of your `SPI_LCD_ST7735_LVGL` project. 
+    - open Project Properties > C/C++ Build > Settings > Directories. 
         - Add `src/gui/` and `src/lvgl/` as include paths.   
     - Build and upload to EBAZ4205 using Xilinx Platform USB Cable.
 - SPI Pin used, 
