@@ -15,9 +15,9 @@
     - Also LCD related GPIO via AxiGPIO, `C20` (LCD DC), `H17` (LCD Backlight), `D20` (LCD RESET)
         <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_Pin.png" width="400px">
 - Experiment result,
-    - GUI is **LVGL Demo Music Player**
+    - GUI is using **LVGL Demo Music Player**
     - LVGL version : `8.3.10`
-    - LCD : Seeed Studio 2.8 Inch TFT LCD Shield V2 (ILI9341)<br>
+    - LCD : Seeed Studio 2.8 Inch TFT LCD Shield V2 240x320 (ILI9341)<br>
     <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_LVGL_1_Photo.jpeg" width="30%">
     <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_LVGL_2_Photo.jpeg" width="30%">
     <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_LVGL_3_Photo.jpeg" width="30%">
