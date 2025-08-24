@@ -17,4 +17,5 @@
 - Experiment result,
     - GUI designed in Squareline Studio
     - LVGL version : `8.3.10`
+    - LCD : TFT LCD ST7735 128x128 1.44' <br>
     ![](../../../resource/EBAZ4205_4_AXIQuadSPI_LVGL_Photo.jpeg)
