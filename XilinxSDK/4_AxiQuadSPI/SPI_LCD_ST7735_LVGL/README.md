@@ -13,4 +13,4 @@
 - SPI Pin used, 
     - SPI pin is assigned to `A20` (MISO), `H16` (MOSI), `B19` (SCK), `B20` (CS) in `DATA1 PORT`, 
     - Also LCD related GPIO via AxiGPIO, `C20` (LCD DC), `H17` (LCD Backlight), `D20` (LCD RESET)
-        ![](../../../resource/EBAZ4205_4_AXIQuadSPI_Pin.png)
+        <img src="../../../resource/EBAZ4205_4_AXIQuadSPI_Pin.png" width="400px">
