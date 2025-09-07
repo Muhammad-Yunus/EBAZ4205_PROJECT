@@ -9,7 +9,7 @@ source EBAZ4205_5_DVI_TPG.tcl
 - source the `io.xdc` as constraint file.
 - Run Synthesis -> Implementation -> Generate Bitstream.
 - Export Hardware Platform & Launch Xilinx SDK.
-- Currenly only support Xilinx SDK implementation user [XilinxSDK/5_DVI_TPG](../../../XilinxSDK/5_DVI_TPG/). 
+- Currenly only support Xilinx SDK implementation [XilinxSDK/5_DVI_TPG](../../../XilinxSDK/5_DVI_TPG/). 
 - Experiment result,
     - TPG `XTPG_BKGND_CROSS_HATCH` with animated 50x50 pixel Green Box.
     - DVI output is capured by **HDMI Video Capture** and display the result in **OBS**.<br><br>
