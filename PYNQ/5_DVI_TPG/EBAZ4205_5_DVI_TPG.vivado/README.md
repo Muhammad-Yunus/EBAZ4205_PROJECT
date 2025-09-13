@@ -1,6 +1,8 @@
 ### Create `EBAZ4205_5_DVI_TPG` Project
 - Create a New Vivado Project with name `EBAZ4205_5_DVI_TPG`,
-- Copy `EBAZ4205_5_DVI_TPG.tcl` above into `EBAZ4205_5_DVI_TPG` project folder using file explorer,
+- Clone this repo to your computer `https://github.com/Digilent/vivado-library/tree/master`
+    - Import into Vivado > IP Repository.
+- Copy `EBAZ4205_5_DVI_TPG.tcl` on this repo into `EBAZ4205_5_DVI_TPG` project folder using file explorer,
 - Open TCL Console in Vivado (bottom section, first tab), run this command,
 ```
 source EBAZ4205_5_DVI_TPG.tcl
