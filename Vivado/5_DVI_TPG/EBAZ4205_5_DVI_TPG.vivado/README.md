@@ -16,8 +16,6 @@ source EBAZ4205_5_DVI_TPG.tcl
 - [Xilinx SDK DVI TPG Example](../../../XilinxSDK/5_DVI_TPG/)
     - Export Hadware Platform
     - Launch Xilinx SDK
-- Experiment result,
-    - TPG `XTPG_BKGND_CROSS_HATCH` with animated 50x50 pixel Green Box.
-    - DVI output is capured by **HDMI Video Capture** and display the result in **OBS**.<br><br>
-    ![](../../../resource/EBAZ4205_5_DVI_TPG_2_Photo.gif)<br><br>
-    ![](../../../resource/EBAZ4205_5_DVI_TPG_1_Photo.jpeg)
+### Project Info
+- Block Design implemented in `EBAZ4205_5_DVI_TPG` project,
+![](../../../resource/EBAZ4205_5_DVI_TPG_BlockDesign.png)
