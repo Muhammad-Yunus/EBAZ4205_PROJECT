@@ -5,17 +5,17 @@
     - Launch Xilinx SDK from Vivado,
     - Then create New Application Project with Name `HDMI_Passthroug_Test`,
     - Choose Project Template `Hello World`
-    - Leave the helloworld.c as is, since we use the code to activate PS.
+    - <font color="orange">Leave the helloworld.c as is</font>, since we use the code to activate PS.
         - So it can supply clock to the PL.
     - Build and upload to EBAZ4205 using Xilinx Platform USB Cable.
-- HDMI TX Pin :
+- **HDMI OUT** Pin :
     - `TMDS Pin` in HDMI / DVI interface, 
         - `TMDS 0` = `BLUE` Cable
         - `TMDS 1` = `GREEN` Cable
         - `TMDS 2` = `RED` Cable
         - `TMDS CLK` = `BROWN` Cable
     - `HPD Pin` for Hot Plug
-- HDMI RX Pin :
+- **HDMI IN** Pin :
     - `TMDS Pin` in HDMI / DVI interface, 
         - `TMDS 0` = `BLUE` Cable
         - `TMDS 1` = `GREEN` Cable
