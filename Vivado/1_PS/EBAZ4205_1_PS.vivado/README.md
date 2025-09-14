@@ -15,5 +15,5 @@ source EBAZ4205_1_PS.tcl
     - Export Hadware Platform
     - Launch Xilinx SDK
 ### Project Info
-- Block Design implemented in `EBAZ4205_2_AXIGPIO` project,
+- Block Design implemented in `EBAZ4205_1_PS` project,
 ![](../../../resource/EBAZ4205_1_PS_BlockDesign.png)
