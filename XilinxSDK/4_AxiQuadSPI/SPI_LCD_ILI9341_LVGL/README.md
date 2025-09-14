@@ -8,7 +8,7 @@
     - Choose Project Template `Hello World`
     - Copy everything inside the `src/` folder above into the `src/` folder of your `SPI_LCD_ILI9341_LVGL` project. 
     - Open Project Properties > C/C++ Build > Settings > Directories. 
-        - Add `src/gui/` and `src/lvgl/` as include paths.   
+        - Add `src/lvgl/` as include paths.   
     - Build and upload to EBAZ4205 using Xilinx Platform USB Cable.
 - SPI Pin used, 
     - SPI pin is assigned to `A20` (MISO), `H16` (MOSI), `B19` (SCK), `B20` (CS) in `DATA1 PORT`, 
