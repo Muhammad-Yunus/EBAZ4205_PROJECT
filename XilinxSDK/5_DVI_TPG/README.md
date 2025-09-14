@@ -1,7 +1,7 @@
 # Project Instruction
 - The `src/` folder contain application code for running Test Pattern Generator (TPG) on DVI interface in Xilinx SDK 2019.1 for EBAZ4205.
 - To get started, 
-    - Export Hardware Platform from [Vivado Project - DVI TPG](../../PYNQ/5_DVI_TPG/EBAZ4205_5_DVI_TPG.vivado/)
+    - Export Hardware Platform from [Vivado Project - DVI TPG](../../Vivado/5_DVI_TPG/EBAZ4205_5_DVI_TPG.vivado/)
     - Launch Xilinx SDK from Vivado,
     - Then create New Application Project with Name `DVI_TPG_Test`,
     - Choose Project Template `Hello World`

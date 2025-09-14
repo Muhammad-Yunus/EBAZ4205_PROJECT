@@ -2,7 +2,7 @@
 - The `src/` folder contain application code for LVGL demo in Xilinx SDK 2019.1 for EBAZ4205.
 - Clone LVGL (https://github.com/lvgl/lvgl) into that `src/` folder.
 - To get started, 
-    - Export Hardware Platform from [Vivado Project - AXI Quad SPI Example](../../../PYNQ/4_AxiQuadSPI/EBAZ4205_4_AXIQuadSPI.vivado/)
+    - Export Hardware Platform from [Vivado Project - AXI Quad SPI Example](../../../Vivado/4_AxiQuadSPI/EBAZ4205_4_AXIQuadSPI.vivado/)
     - Launch Xilinx SDK from Vivado,
     - Then create New Application Project with Name `SPI_LCD_ILI9341_LVGL`,
     - Choose Project Template `Hello World`

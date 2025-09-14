@@ -10,8 +10,12 @@ source EBAZ4205_5_DVI_TPG.tcl
 - Block design will be generated.
 - source the `io.xdc` as constraint file.
 - Run Synthesis -> Implementation -> Generate Bitstream.
-- Export Hardware Platform & Launch Xilinx SDK.
-- Currenly only support Xilinx SDK implementation [XilinxSDK/5_DVI_TPG](../../../XilinxSDK/5_DVI_TPG/). 
+- [PYNQ DVI TPG Example](../../../PYNQ/5_DVI_TPG/) :
+    - Find `.bit`, `.tcl` & `.hwh` files inside `EBAZ4205_5_DVI_TPG` project folder.
+    - Copy that and upload into `~/pynq/overlays/` folder of PYNQ OS running in EBAZ4205.
+- [Xilinx SDK DVI TPG Example](../../../XilinxSDK/5_DVI_TPG/)
+    - Export Hadware Platform
+    - Launch Xilinx SDK
 - Experiment result,
     - TPG `XTPG_BKGND_CROSS_HATCH` with animated 50x50 pixel Green Box.
     - DVI output is capured by **HDMI Video Capture** and display the result in **OBS**.<br><br>
