@@ -4,7 +4,7 @@
     - Launch Xilinx SDK from Vivado,
     - Then create New Application Project with Name `HDMI_Passthroug_Test`,
     - Choose Project Template `Hello World`
-    - <font color="orange">Leave the helloworld.c as is</font>, since we use the code to activate PS.
+    - <font color="orange">Leave the helloworld.c as it is</font>, since we use the code only to activate the PS.
         - So it can supply clock to the PL.
     - Build and upload to EBAZ4205 using Xilinx Platform USB Cable.
 - **HDMI OUT** Pin :
