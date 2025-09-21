@@ -3,12 +3,13 @@
 - To get started, 
     - Export Hardware Platform from [Vivado Project - AD9226 ADC](../../Vivado/7_AD9226_ADC/EBAZ4205_7_AD9226_DATA_CAPTURE.vivado/)
     - Launch Xilinx SDK from Vivado,
-    - Then create New Application Project with Name `AD9226_AXIS_CAPTURE_TEST`,
-    - Choose Project Template `Hello World`
+    - Then create New Application Project > **C++** with Name `AD9226_AXIS_CAPTURE_TEST`,
+    - Choose Project Template `Empty Application`,
     - Copy everything inside the `src/` folder above into the `src/` folder of your `AD9226_AXIS_CAPTURE_TEST` project. 
+    - Modify BSP setting > Add LwIP support,
     - Build and upload to EBAZ4205 using Xilinx Platform USB Cable.
 - On this project we are only used `DATA3` Port in EBAZ4205, 
-        <img src="../../resource/EBAZ4205_7_AD9266_AXIS_CAPTURE_Pin.png" height="250">
+    <img src="../../resource/EBAZ4205_7_AD9266_AXIS_CAPTURE_Pin.png" height="250">
 - Experiment result,
     - Display FFT of ADC Data in Python client app (Run in host Computer),
     - Establish TCP Server to streaming ADC data in EBAZ4205.<br><br>
