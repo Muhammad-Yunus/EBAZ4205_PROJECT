@@ -17,8 +17,8 @@
     TCP_PORT = 7                # TCP port of the FPGA board
     ```
     - Run [client_app_signal_processing_FFT.py](PythonClientApp/client_app_signal_processing_FFT.py) in your host computer.
-- On this project we are only used `DATA3` Port in EBAZ4205, 
-    <img src="../../resource/EBAZ4205_7_AD9266_AXIS_CAPTURE_Pin.png" height="250">
+- On this project we are only used `DATA3` Port in EBAZ4205, <br>
+    <img src="../../resource/EBAZ4205_7_AD9266_AXIS_CAPTURE_Pin.png" height="250"><br><br>
 - Experiment result,
     - Display FFT of ADC Data in Python client app (Run in host Computer),
     - Establish TCP Server to streaming ADC data in EBAZ4205.<br><br>
