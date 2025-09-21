@@ -11,7 +11,7 @@
     - Connect to EBAZ4205 Serial, check the TCP IP & Port for established TCP Server in PS EBAZ4205. 
 - Run the [PythonClientApp](PythonClientApp/)
     - Open [client_app_signal_processing_FFT.py](PythonClientApp/client_app_signal_processing_FFT.py), 
-    - And modify to the correct IP and Port used in TCP Server,
+    - And modify it to use the correct IP address and port for the TCP server,
     ```
     TCP_IP = '192.168.0.126'    # IP of the FPGA board
     TCP_PORT = 7                # TCP port of the FPGA board
