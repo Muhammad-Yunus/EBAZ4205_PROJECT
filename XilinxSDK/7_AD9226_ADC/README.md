@@ -1,5 +1,5 @@
 # Project Instruction
-- The `src/` folder contain application code for running TCP Server to streaming ADC Data stored inMemory Mapped I/O in Xilinx SDK 2019.1 for EBAZ4205.
+- The `src/` folder contains the application code for running a TCP server that streams ADC data stored in memory-mapped I/O using Xilinx SDK 2019.1 for the EBAZ4205.
 - To get started, 
     - Export Hardware Platform from [Vivado Project - AD9226 ADC](../../Vivado/7_AD9226_ADC/EBAZ4205_7_AD9226_DATA_CAPTURE.vivado/)
     - Launch Xilinx SDK from Vivado,
